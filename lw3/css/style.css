@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+  margin: 0;
+  padding: 0; 	
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg,#310b1b,#13041d);
+}
+
+#registration-block {
+  padding-top: 150px;
+  width: 350px;
+  height: 600px;
+  margin : auto;
+}
+
+#agreement-block {
+  width: 350px;
+  height: 40px;	
+  color: #e6ecf0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#registration-block > h1 {
+  font-size: 4.5em;
+  text-align: center;
+  font-family: 'Neucha', cursive;	
+  color: #e6ecf0; 
+  border: 2px solid #e6ecf0;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.inputs-block > input {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 25px;
+  width: 348px;
+  height: 40px;
+  border: 1px solid #e6ecf0;
+  border-radius: 15px 15px 15px 15px;
+  font-family: 'PT Sans', sans-serif;
+  color: #e6ecf0;
+  background: transparent;
+  outline: 0;
+}
+
+.inputs-block > input:focus {
+  border-color: #7fc1d9;
+}
+
+.inputs-block > input:last-child {
+  margin-bottom: 25px;
+}
+
+#agreement-block > label {
+  cursor: pointer;
+}
+
+#agreement-block > label > input {
+  width: 20px;
+  height: 20px;	
+  cursor: pointer;
+}
+
+#registration-block > .buttons > input {
+  margin-top: 25px;
+  width: 350px;
+  height: 55px;
+  border: 1px solid #e6ecf0;
+  border-radius: 15px 15px 15px 15px;
+  font-family: 'PT Sans', sans-serif;	
+  text-align: center;
+  font-size: 1.5em;
+  background: transparent;
+  color: #e6ecf0; 
+  transition: border.2s ease;
+}
+
+#registration-block > .buttons > input:hover {
+  border: 6px solid #7fc1d9;
+  transition: border.2s ease;	
+  cursor: pointer;
+}
